@@ -15,6 +15,7 @@ class UserTableSeeder extends Seeder
             'name' => 'TA DANG QUANG',
             'email' => 'taquang22@gmail.com',
             'password' => '123456',
+            'phone_number' => '0123456',
         ]);
     }
 }

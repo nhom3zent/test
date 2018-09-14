@@ -1,0 +1,285 @@
+/**
+ * Default style
+ */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo-web {
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    left: 17px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Remove sidebar */
+#page-wrapper {
+    margin: 0;
+}
+
+.btn-refresh a {
+    color: white;
+}
+
+.btn-refresh {
+    margin: 5px;
+}
+
+.btn {
+    font-weight: bold;
+    margin: 2px;
+}
+
+/* Grid sort element style */
+th small {
+    display: block;
+}
+
+.table>thead>tr>th {
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.btn-action-grid {
+    margin: 5px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+/**
+ * Sweet alert custom
+ */
+.sweet-alert {
+    font-family: 'Nunito', sans-serif;
+    width: 400px;
+    top: 40%;
+    margin-left: -178px;
+}
+
+.sweet-alert h2 {
+    color: black;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.sweet-alert button {
+    font-weight: normal;
+}
+
+.sweet-alert button.confirm {
+    background-color: #337ab7!important;
+}
+
+.form-action {
+    padding: 10px;
+}
+
+.preview-image img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.preview-image {
+    margin-top: 20px;
+}
+
+textarea {
+    height: 150px;
+}
+
+/**
+ * Modal alert custom
+ */
+button.btn.btn-cancel {
+    height: 44px;
+    width: 118px;
+    background-color: #c1c1c1;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+button.btn.btn-cancel:hover {
+    color: #ffffff;
+    background-color: #b9b9b9;
+    border: unset;
+}
+
+button.btn.btn-cancel:active {
+    background-color: #b9b9b9;
+    color: #ffffff;
+}
+
+button.btn.btn-accept {
+    height: 44px;
+    width: 135px;
+    font-size: 17px;
+    font-weight: normal;
+    background-color: #337ab7;
+}
+
+button.btn.btn-accept:hover {
+    background-color: #337ab7;
+}
+
+button.btn.btn-accept:active {
+    background-color: #337ab7;
+}
+
+.modal-container-alert {
+    width: 400px;
+}
+
+.modal-position-alert {
+    padding-left: 120px;
+    margin-top: 200px;
+}
+
+.modal-footer-alert {
+    text-align: center;
+}
+
+.modal-title-alert {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.image-product {
+    width: 50px;
+    height: 50px;
+}
+
+.nicEdit-panel div:nth-child(n+16) {
+    display: none;
+}
+
+.nicEdit-main {
+    min-height: 150px !important;
+}
+
+.js-form-update-product textarea {
+    min-height: 150px;
+}
+
+.inventory-policy-container {
+    margin-top: 30px;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.badge-info {
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #387ab7;
+}
+
+.badge-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #4caf50;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #d9524f;
+}
+
+.column-is_from_sapo, .column-published_on {
+    width: 100px;
+}
+
+.panel-content {
+    margin-top: 17px;
+}
+
+.panel-detail-order {
+    min-height: 520px;
+}
+
+.detail-order-image {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.js-form-update-status-order>div, .js-form-update-user-status>div {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.lead {
+    font-size: 18px;
+}
+
+.cursor-grab {
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.huge {
+    font-size: 25px;
+}
+
+.account-name {
+    margin-top: 10px;
+}
+
+.panel-info-account {
+    height: 450px;
+}
+
+.panel-subordinates {
+    height: 450px;
+}
+
+.js-filter-form-by-date-range .select2-selection {
+    width: 300px;
+    height: 34px !important;
+    padding: 2px;
+}
+
+.li-pull-right {
+    float: right;
+    border: 1px solid #dddddd;
+    padding: 5px;
+    margin-right: 15px;
+    margin-top: 27px;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+.js-date-range-picker {
+    width: 200px !important;
+}

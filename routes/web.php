@@ -11,6 +11,15 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
+});
+
+//Route::get('/login', '')
+Auth::routes();
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/home', 'UserController@index')->name('home');
+    Route::get('/create-user', 'UserController@create')->name('createUser');
+    Route::post('/store-user', 'UserController@store')->name('storeUser');
 });
